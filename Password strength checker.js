@@ -4,7 +4,7 @@ const input = document.querySelector("input"),
       iconText = document.querySelector(".icon-text"),
       text = document.querySelector(".text");
 
-// js code to show & hide password
+
 
 showHide.addEventListener("click", ()=>{
   if(input.type === "password"){
@@ -16,7 +16,7 @@ showHide.addEventListener("click", ()=>{
   }
 });
 
-// js code to show password strength (with regex)
+
 
 let alphabet = /[a-zA-Z]/, //letter a to z and A to Z
     numbers = /[0-9]/, //numbers 0 to 9
